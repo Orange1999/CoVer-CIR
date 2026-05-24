@@ -1,7 +1,20 @@
-# CoVer-CIR
+# CoVer-CIR Main Code
 
-This repository contains the implementation for the paper:
+This directory contains the main code for CoVer-CIR.
 
-**CoVer-CIR: Constraint-Aware Retrieval Calibration and Verification for Zero-Shot Composed Image Retrieval**
+`prompt.py`: prompt for intent-aware constraint decomposition.
 
-The code is provided for anonymous review. Author information has been removed for double-blind submission.
+`decomposition.py`: GPT-based decomposition for CIRR, FashionIQ, and CIRCO.
+
+`clip_features.py`: CLIP loading, feature extraction, and spherical interpolation.
+
+`scoring.py`: adaptive negative calibration and pairwise verification.
+
+`main_calibration.py`: calibrated retrieval.
+
+`main_verification.py`: Top-K pairwise verification.
+
+`metrics.py`: ranking metrics and test submission generation.
+
+`config.py`: default parameters.
+
